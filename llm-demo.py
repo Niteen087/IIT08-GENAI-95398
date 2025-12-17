@@ -17,7 +17,7 @@ headers = {
 }
 
 st.title("Chat & Ask")
-user_input = st.chat_input("You: ")
+user_input = st.chat_input("Ask: ")
 st.session_state.messages.append(user_input)
 if user_input:
     req_data = {
